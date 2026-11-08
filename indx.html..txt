@@ -1,0 +1,48 @@
+'Smart Home' 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Home</title>
+<style>
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+header { background: #003366; color: white; padding: 1.5rem; text-align: center; }
+.brand-sub { font-size: 1.2rem; color: #ffcc00; }
+nav { background: #004080; color: white; padding: 0.8rem; text-align: center; }
+nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+.products { display: flex; justify-content: space-around; padding: 40px 20px; flex-wrap: wrap; }
+.product-card { background: white; border-radius: 50%; width: 200px; height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px; transition: transform 0.3s; }
+.product-card:hover { transform: scale(1.05); }
+.product-card h3 { margin: 0 0 5px 0; color: #333; }
+.product-card p { margin: 0; font-size: 0.9rem; color: #666; width: 80%; }
+</style>
+</head>
+<body>
+<header>
+<h1>Smart Home</h1>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Modular Switches</a>
+<a href="#">Safe Wires</a>
+<a href="#">Home Automation</a>
+</nav>
+<div class="products">
+<div class="product-card">
+<h3>Curve Modular Switches</h3>
+<p>Modern design and smooth functionality.</p>
+</div>
+<div class="product-card">
+<h3>PVC Insulated Wires</h3>
+<p>Guaranteed maximum safety.</p>
+</div>
+<div class="product-card">
+<h3>i-Wiz Home Automation</h3>
+<p>Smart control at your fingertips.</p>
+</div>
+</div>
+</body>
+</html>
+
+
+
